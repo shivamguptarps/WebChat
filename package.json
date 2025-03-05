@@ -9,7 +9,7 @@
     "dev:frontend": "cd ./Frontend && npm run dev",
     "dev:backend": "nodemon index.js",
     "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-    "postinstall": "cd ./Frontend && npm install && npm run build"
+    "postinstall": "npm install"
   },
   "author": "",
   "license": "ISC",
