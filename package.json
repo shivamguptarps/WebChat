@@ -8,8 +8,7 @@
     "start": "node index.js",
     "dev:frontend": "cd ./Frontend && npm run dev",
     "dev:backend": "nodemon index.js",
-    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\"",
-    "postinstall": "npm install"
+    "dev": "concurrently \"npm run dev:backend\" \"npm run dev:frontend\""
   },
   "author": "",
   "license": "ISC",
